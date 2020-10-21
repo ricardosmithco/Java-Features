@@ -4,7 +4,7 @@ public class GenericMethods2 {
 	public static void main(String[] args) {
 		Grades<DayStudent> g1 = new Grades<DayStudent>();
 		NightStudent ns = new NightStudent();
-		ns.update(g1);
+		ns.<DayStudent>update(g1);
 	}
 
 }
