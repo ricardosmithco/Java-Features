@@ -1,0 +1,5 @@
+This is a random file that I plan to read using the FileReader, and write elsewhere using the 
+file Writer.
+
+Best,
+Ricardo.
