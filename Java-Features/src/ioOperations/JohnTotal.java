@@ -52,3 +52,12 @@ public class JohnTotal {
 	}
 
 }
+
+/*
+ * When data is read and written, a byte or character at a time, it is a very expensive operation due to frequent disk access
+ * This can be optimized by buffering a group of bytes or characters together and then making use of them.
+ * Buffering helps to store an entire block of values into a buffer, and then make the data available for use.
+ * There are four buffered stream classes:
+ * BufferedInputStream and BufferedOutputStream help in creating buffered byte streams
+ * BufferedReader and BufferedWriter are used to create buffered character stream
+ */
